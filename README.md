@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="assets/Logo.png" alt="Project Logo" width="200"/>
+</p>
+
 # Solubility_Hydrogen
 This code is developed in Julia Programming Language and is to compute the extent of solubility of hydrogen in water and brine under varying conditions of pressure, temperature and salinity. The accuracy has been tested across existing experimental data.
 To use this file you can use the following simple codes:
