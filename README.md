@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/Logo.png" alt="Project Logo" width="200"/>
+  <img src="Logo.png" alt="Project Logo" width="200"/>
 </p>
 
 # Solubility_Hydrogen
