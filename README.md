@@ -12,15 +12,24 @@ The framework also supports gas mixtures, allowing the user to specify arbitrary
  If you are using this code please kindly consider citing the following paper:
  
  @article{GOLGHANDDASHTI2026139371,
+ 
 title = {Hydrogen solubility in water and brine: A simplified Henry’s law method verified against experimental data},
+
 journal = {Fuel},
+
 volume = {424},
+
 pages = {139371},
+
 year = {2026},
+
 issn = {0016-2361},
+
 doi = {https://doi.org/10.1016/j.fuel.2026.139371},
+
 url = {https://www.sciencedirect.com/science/article/pii/S0016236126011257},
-author = {Hassan Golghanddashti and Mohammad Sayyafzadeh and Mark Bunch and Andrea Binda and Abbas Zeinijahromi},
+
+author = {Hassan Golghanddashti and Mohammad Sayyafzadeh and Mark Bunch and Andrea Binda and Abbas Zeinijahromi}
 
 
 
