@@ -10,6 +10,7 @@ In addition, the code can be used to predict the solubility of other gases, incl
 The framework also supports gas mixtures, allowing the user to specify arbitrary combinations of these gases and compute their individual solubilities in aqueous and saline systems.
 
  If you are using this code please kindly consider citing the following paper:
+ 
  @article{GOLGHANDDASHTI2026139371,
 title = {Hydrogen solubility in water and brine: A simplified Henry’s law method verified against experimental data},
 journal = {Fuel},
