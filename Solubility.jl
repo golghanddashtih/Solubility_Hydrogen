@@ -85,8 +85,13 @@ function compute_solubility(model::Clapeyron.EoSModel,T_values::AbstractVector{<
                 FugCoefV[i,j]  = phi_v[i]
             # Perry-based x_H2 estimate and correction
                 PF_calc[i,j]= Vbar*(P-Pref)/(Rgas(model) * T)
-                #x_Perry         = y[i] .* P./ kH_T_Perry[i,j] ./ 1e6
-                x_Perry         = P./ kH_T_Perry[i,j] ./ 1e6
+                if nc == 2
+                    # For binary systems, suppose the non-water component is the first one (H₂), so we use y[1]
+                     x_Perry         = P./ kH_T_Perry[i,j] ./ 1e6
+                else                    # For multicomponent systems
+                     x_Perry         = y[i] .* P./ kH_T_Perry[i,j] ./ 1e6
+                end          
+                
                 x_Perry_correct[i,j] = x_Perry .* FugCoefV[i,j] ./ exp.(PF_calc[i,j]) ./ ActSalt[i,j]
             # Updating all species mole fraction except water
                 x_tot_species[j]+= x_Perry_correct[i,j]
