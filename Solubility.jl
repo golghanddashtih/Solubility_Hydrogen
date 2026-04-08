@@ -1,7 +1,8 @@
 
 ####Packages
 using Pkg
-Pkg.add("Clapeyron")
+#Pkg.add("Clapeyron")
+Pkg.add(name="Clapeyron", version="0.6.15")
 using Clapeyron
 ####
 #######Solubility_High_Pressure
